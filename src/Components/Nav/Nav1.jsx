@@ -18,7 +18,7 @@ const Nav1 = ({change}) => {
         <Link to='/tvHome'  onClick={()=>change(false)}>TV & Home</Link>
         <Link to='/entertainment' onClick={()=>change(false)}>Entertainment</Link>
         <Link to='/accessories' onClick={()=>change(false)}>Accessories</Link>
-        <Link to='/supp' onClick={()=>change(false)}>Support</Link>
+        <Link to='/support' onClick={()=>change(false)}>Support</Link>
     </div>
   )
 }
