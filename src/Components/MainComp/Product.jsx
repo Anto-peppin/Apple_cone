@@ -76,7 +76,7 @@ const Product = () => {
         {data.map((val) => (
           <div
             key={val.id}
-            className="w-[100%] h-[500px]  flex flex-col gap-2 justify-between  relative"
+            className="w-[100%] h-[540px]  flex flex-col gap-2 justify-between  relative"
             style={{
               color: `${val.tCol}`,
               overflow: "hidden",
@@ -92,7 +92,7 @@ const Product = () => {
               />
             </div>
 
-            <div className="w-[100%] flex flex-col items-center gap-2 absolute mt-4">
+            <div className="w-[100%] flex flex-col items-center gap-2 absolute mt-6">
               <span className="flex gap-2 items-center h-fit">
                 <h1 className="text-2xl font-bold sm:text-3xl ">
                   {val.heading}
