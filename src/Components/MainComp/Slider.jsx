@@ -25,7 +25,7 @@ const Slider = () => {
   const slides = [1, 2, 3, 4, 5, 6, 7, 8];
 
   return (
-    <div className="w-[99%]  mx-auto relative mb-10">
+    <div className="w-[100%]  mx-auto relative mb-8">
       <button className="swiper-button-prev absolute left-[5px] top-1/2 z-10 rounded-full p-2 hover:bg-gray-500">
         <TbArrowBigLeftLinesFilled className="text-white" />
       </button>
@@ -79,7 +79,7 @@ const Slider = () => {
 
       <div
         className="custom-pagination flex justify-center items-center gap-2 absolute w-full z-20 "
-        style={{ bottom: "-15px" }}
+        style={{ bottom: "-20px" }}
       ></div>
       <style jsx="true">{`
         .swiper-pagination-bullet-active {
@@ -101,7 +101,7 @@ const Slider = () => {
   }
 `}</style>
       <div
-        className="absolute right-2 mt-1 z-20 cursor-pointer "
+        className="absolute right-2 mt-2 z-20 cursor-pointer "
         onClick={changeState}
       >
         

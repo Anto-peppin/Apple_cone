@@ -112,7 +112,7 @@ const Footer = ({ wWidth ,title},) => {
       direction: false,
     },
     {
-      id: 1,
+      id: 11,
       head: "About Apple",
       data: [
         "Newsroom",
