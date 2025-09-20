@@ -57,8 +57,8 @@ const Slider = () => {
         loop
         onSwiper={(swiper) => (swiperRef.current = swiper)}
         breakpoints={{
-          200: { slidesPerView: 1.8 }, // mobile
-          640: { slidesPerView: 1.7 }, // mobile
+          200: { slidesPerView: 1.5 }, // mobile
+          640: { slidesPerView: 1.5 }, // mobile
           768: { slidesPerView: 1.5 }, // tablet
           1024: { slidesPerView: 1.2 }, // desktop
         }}

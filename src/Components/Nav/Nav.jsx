@@ -34,16 +34,16 @@ const Nav = ({windowWIdth}) => {
       <ul className='flex gap-4 bg-transparent justify-between items-center w-[95%] md:w-[70%]' >
         
         <li className='flex justify-between items-center '> <Link className="text-gray-400 text-base hover:text-white" to='/' ><IoLogoApple /></Link> </li>
-        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[10px] hover:text-white"  to='/store' >Store</Link> </li>
-        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[10px] hover:text-white" to='/mac' >Mac</Link> </li>
-        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[10px] hover:text-white" to='/ipad' >Ipad</Link> </li>
-        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[10px] hover:text-white" to='/iphone' >Iphone</Link> </li>
-        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[10px] hover:text-white" to='/watch' >Watch</Link> </li>
-        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[10px] hover:text-white" to='/airpods' >Airpods</Link> </li>
-        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[10px] hover:text-white" to='/tvHome' >Tv&Home</Link> </li>
-        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[10px] hover:text-white" to='/entertainment' >Entertainment</Link> </li>
-        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[10px] hover:text-white" to='/accessories' >Accessories</Link> </li>
-        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[10px] hover:text-white" to='/support' >Support</Link> </li>
+        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[12px] hover:text-white"  to='/store' >Store</Link> </li>
+        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[12px] hover:text-white" to='/mac' >Mac</Link> </li>
+        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[12px] hover:text-white" to='/ipad' >Ipad</Link> </li>
+        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[12px] hover:text-white" to='/iphone' >Iphone</Link> </li>
+        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[12px] hover:text-white" to='/watch' >Watch</Link> </li>
+        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[12px] hover:text-white" to='/airpods' >Airpods</Link> </li>
+        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[12px] hover:text-white" to='/tvHome' >Tv&Home</Link> </li>
+        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[12px] hover:text-white" to='/entertainment' >Entertainment</Link> </li>
+        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[12px] hover:text-white" to='/accessories' >Accessories</Link> </li>
+        <li className='justify-between items-center hidden md:flex '> <Link className="text-gray-400 text-[12px] hover:text-white" to='/support' >Support</Link> </li>
         <div className='flex gap-5 items-center'>
           <li onClick={handleSearch} className='flex justify-between items-center '> <Link className="text-gray-400 text-base hover:text-white"  ><IoIosSearch /></Link> </li>
         <li className='flex justify-between items-center '> <Link className="text-gray-400 text-base hover:text-white" ><BsBag /></Link> </li>
