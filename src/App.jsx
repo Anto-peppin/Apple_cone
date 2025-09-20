@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <div className="conteiner bg-gray-200">
+      <div className="conteiner bg-gray-100">
         <Router>
           <Nav windowWIdth={windowWIdth} />
           <Routes>

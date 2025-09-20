@@ -204,7 +204,7 @@ const Footer = ({ wWidth ,title},) => {
                 key={index}
               >
                 <header className="flex justify-between  font-sans">
-                  <span className="text-[11px]">{val.head}</span>
+                  <span  onClick={() => changeDirection(val.id)} className="text-[11px]">{val.head}</span>
                   <div
                     className="text-[13px]"
                     onClick={() => changeDirection(val.id)}

@@ -15,8 +15,8 @@ const Silk = ({ name }) => {
       />
       <div className=" p-4 relative inline-block translate-y-[45vh] ">
        <center>
-         <h2 className="text-black text-2xl font-bold sm:text-3xl md:text-5xl md:text-white">
-         sorry! {name} page Not Build Yet !
+         <h2 className="text-red-700 text-2xl font-bold sm:text-3xl md:text-5xl md:text-white">
+         sorry! {name} page Not Build Yet 
         </h2>
        </center>
       </div>
