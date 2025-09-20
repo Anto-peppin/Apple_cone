@@ -203,7 +203,7 @@ const Footer = ({ wWidth ,title},) => {
                 className="border-b border-[#cececf] pb-2.5 mt-2"
                 key={index}
               >
-                <header className="flex justify-between  font-sans">
+                <header className="flex justify-between  font-sans cursor-pointer ">
                   <span  onClick={() => changeDirection(val.id)} className="text-[11px]">{val.head}</span>
                   <div
                     className="text-[13px]"
@@ -237,10 +237,10 @@ const Footer = ({ wWidth ,title},) => {
           <div className="w-[85%] py-4 flex flex-col h-[350px] flex-wrap gap-x-5 gap-y-3 mx-auto">
             {footerCon.map((val,ind) => (
               <div key={ind} className="flex flex-col gap-1.5  text-[11px]">
-                <header className="font-bold text-gray-600">{val.head}</header>
+                <header className="font-bold text-gray-600 cursor-pointer">{val.head}</header>
                 <div className="flex flex-col gap-1 text-gray-500">
                   {val.data.map((val1,ind) => (
-                    <div key={ind}>{val1}</div>
+                    <div className="cursor-pointer hover:underline" key={ind}>{val1}</div>
                   ))}
                 </div>
               </div>
