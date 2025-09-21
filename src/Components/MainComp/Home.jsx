@@ -17,7 +17,7 @@ const Home = ({windowWIdth}) => {
         <p className="text-white text-[12px] font-sans text-center ">
           Get up to 6 months of No Cost EMI plus up to ₹10000 instant cashback
           on selected products with eligible cards.{" "}
-          <Link className="text-blue-600" to="/store">
+          <Link className="text-blue-600 whitespace-nowrap" to="/store">
             {"Shop >"}
           </Link>
         </p>
